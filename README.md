@@ -17,3 +17,12 @@ A recruiter-focused personal portfolio built with plain HTML, CSS, and JavaScrip
 ## Important project note
 The "AI Resume Screening & Job Match Platform" is intentionally marked **In Progress**.
 Change it to "Completed" only after you actually build it and add its repository/demo.
+
+
+## Version 2 updates
+- Added recruiter-friendly Resume download/view buttons
+- Included resume PDF in `assets/Rithick_Roshan_Resume.pdf`
+- Rebalanced hero typography
+- Added compact proof strip for Zoho / AI-ML / Data strengths
+- Added project action areas without falsely claiming unavailable demos
+- Strengthened contact call-to-action

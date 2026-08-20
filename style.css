@@ -150,3 +150,74 @@ footer{border-top:1px solid var(--border)}
   .quick-info{gap:10px;flex-direction:column}
   .footer-inner{flex-direction:column}
 }
+
+
+/* ===== Portfolio V2 recruiter-focused upgrades ===== */
+.hero h1{
+  font-size:clamp(2.65rem,5.25vw,5rem);
+  max-width:760px;
+}
+.hero h2{
+  max-width:760px;
+}
+.resume-btn{
+  background:rgba(110,231,249,.08);
+  color:#c8f8ff;
+  border-color:rgba(110,231,249,.35);
+}
+.resume-btn:hover{
+  background:rgba(110,231,249,.14);
+  border-color:rgba(110,231,249,.65);
+}
+.proof-strip{
+  margin-top:26px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  max-width:720px;
+}
+.proof-strip div{
+  padding:13px 14px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:rgba(255,255,255,.025);
+}
+.proof-strip strong{
+  display:block;
+  font-size:.84rem;
+  color:#eef2ff;
+  margin-bottom:2px;
+}
+.proof-strip span{
+  color:#7f8da2;
+  font-size:.72rem;
+}
+.project-actions{
+  margin-top:20px;
+  padding-top:16px;
+  border-top:1px solid rgba(255,255,255,.07);
+}
+.project-link{
+  font-size:.82rem;
+  font-weight:700;
+  color:#b8f5ff;
+}
+.project-link:hover{
+  color:#fff;
+}
+.disabled-link{
+  color:#768398;
+  cursor:default;
+}
+.contact-card{
+  background:
+    radial-gradient(circle at 85% 20%, rgba(110,231,249,.08), transparent 28%),
+    linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025));
+}
+.contact-card p{
+  max-width:780px;
+  font-size:1rem;
+}
+@media(max-width:850px){
+  .proof-strip{grid-template-columns:1fr}
+}

@@ -221,3 +221,25 @@ footer{border-top:1px solid var(--border)}
 @media(max-width:850px){
   .proof-strip{grid-template-columns:1fr}
 }
+/* Portfolio V3 profile-photo and accessibility refinements */
+.hero-photo-wrap{
+  isolation:isolate;
+}
+.photo-glow{
+  z-index:0;
+}
+.hero-photo{
+  z-index:1;
+  background:#f7f8fb;
+  object-position:center 16%;
+}
+.nav-links a:focus-visible,
+.btn:focus-visible,
+.project-link:focus-visible,
+.menu-toggle:focus-visible{
+  outline:3px solid var(--accent);
+  outline-offset:4px;
+}
+@media(max-width:850px){
+  .hero-photo{width:min(320px,82vw)}
+}

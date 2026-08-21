@@ -11,7 +11,7 @@ A recruiter-focused personal portfolio aligned with my current resume and built 
 - Responsive, accessible single-page layout
 - AI/ML, Python, GenAI, data, and automation skills
 - Four selected projects with truthful scope and status
-- Internship experience at Smart Data Solutions and Tiger Analytics
+- Artificial Intelligence and Data Analyst internship experience at Novitech Pvt Ltd
 - Education, certifications, leadership, resume, and contact links
 
 ## Files

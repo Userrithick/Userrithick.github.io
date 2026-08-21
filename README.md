@@ -1,28 +1,27 @@
-# Rithick Roshan S — Portfolio
+# Rithick Roshan S - Portfolio
 
-A recruiter-focused personal portfolio built with plain HTML, CSS, and JavaScript.
+A recruiter-focused personal portfolio aligned with my current resume and built with plain HTML, CSS, and JavaScript.
+
+## Live Site
+
+[userrithick.github.io](https://userrithick.github.io)
+
+## Highlights
+
+- Responsive, accessible single-page layout
+- AI/ML, Python, GenAI, data, and automation skills
+- Four selected projects with truthful scope and status
+- Internship experience at Smart Data Solutions and Tiger Analytics
+- Education, certifications, leadership, resume, and contact links
 
 ## Files
-- `index.html` — main portfolio page
-- `style.css` — responsive dark UI
-- `script.js` — mobile navigation and footer year
-- `assets/rithick-profile.png` — profile image
 
-## Publish on GitHub Pages
-1. Create a GitHub repository named `Userrithick.github.io`
-2. Upload all files/folders from this package to the repository root.
-3. Commit the files.
-4. Open `https://Userrithick.github.io`
+- `index.html` - portfolio content and structure
+- `style.css` - responsive dark visual system
+- `script.js` - mobile navigation and automatic footer year
+- `assets/rithick-profile.png` - professional profile image
+- `assets/Rithick_Roshan_Resume.pdf` - downloadable resume
 
-## Important project note
-The "AI Resume Screening & Job Match Platform" is intentionally marked **In Progress**.
-Change it to "Completed" only after you actually build it and add its repository/demo.
+## Current Project Note
 
-
-## Version 2 updates
-- Added recruiter-friendly Resume download/view buttons
-- Included resume PDF in `assets/Rithick_Roshan_Resume.pdf`
-- Rebalanced hero typography
-- Added compact proof strip for Zoho / AI-ML / Data strengths
-- Added project action areas without falsely claiming unavailable demos
-- Strengthened contact call-to-action
+The AI Resume Screening & Job Match Platform is presented as an MVP, consistent with the current resume. Projects without a public repository or live demo are not given invented links.
